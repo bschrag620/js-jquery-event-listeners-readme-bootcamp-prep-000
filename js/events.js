@@ -9,7 +9,7 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-    $('img').toggleClass('tasty')
+    $('img').addClass('tasty')
     return
   })
 }
