@@ -30,12 +30,13 @@ function submitIt() {
     return
   })
 }
-frameIt();
+
 
 $(document).ready(function(){
 
 // call functions here
 
+frameIt();
 getIt();
 pressIt();
 submitIt();
