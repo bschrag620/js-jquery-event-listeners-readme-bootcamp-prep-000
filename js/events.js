@@ -9,7 +9,7 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-    const imgFrame = getElementBy
+    const imgFrame = document.getElementByTagName
     return
   })
 }
