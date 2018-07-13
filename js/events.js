@@ -9,8 +9,7 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-    const imgFrame = $('img')
-    imgFrame.class = 'tasty'
+    
     return
   })
 }
