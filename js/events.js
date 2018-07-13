@@ -8,7 +8,7 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').on('click', function() {
+  $('img').on('loaded', function() {
     alert('Image loaded!')
     $('img').addClass('tasty')
   })
