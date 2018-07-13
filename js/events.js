@@ -10,7 +10,11 @@ function getIt() {
 function frameIt() {
   $('img').on('load', function() {
     $('img').addClass('tasty')
-  })
+  }).each(function(){
+  if(this.complete) {
+    $(this).trigger('load');
+  }
+  }
   return
 }
 
