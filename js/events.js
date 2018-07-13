@@ -9,8 +9,8 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-    const imgFrame = document.getElementByTagName
-    return
+    const imgFrame = $('img:first-child')
+    console.log(imgFrame)
   })
 }
 
