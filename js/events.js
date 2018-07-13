@@ -15,7 +15,9 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('input#')
+  $('input#typing').on('keydown', function(e) {
+    if (e.which ===)
+  })
 }
 
 
